@@ -1,5 +1,4 @@
-# Moral Maze · Prototype A
-
+# Life Maze 
 An experimental blend of moral dilemmas and a shifting WebGL maze. Frontend: **Astray + Three.js + Box2D**. Backend: **FastAPI** with AI evaluation (default Groq `llama-3.1-8b-instant`).
 
 Key beats:
