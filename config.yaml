@@ -1,0 +1,29 @@
+window:
+  width: 960
+  height: 640
+  fps: 60
+  title: "道德迷宫 - Moral Maze"
+
+maze:
+  width: 24
+  height: 18
+  seed: 20251103
+
+age:
+  start: 10
+  goal: 90
+
+ai:
+  provider: "groq"
+  model: "llama-3.1-8b-instant"
+  sensitivity: "standard"
+
+save:
+  path: "./save/profile.json"
+
+colors:
+  background: [240, 235, 230]
+  wall: [60, 60, 80]
+  player: [70, 130, 180]
+  decision_node: [255, 200, 100]
+  path: [255, 255, 255]

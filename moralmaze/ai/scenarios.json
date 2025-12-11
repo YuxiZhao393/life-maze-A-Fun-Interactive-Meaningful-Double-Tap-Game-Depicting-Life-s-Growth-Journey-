@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "version": "developmental-1.0",
+    "notes": "High-conflict developmental dilemmas; English; options optional."
+  },
+  "stages": [
+    {
+      "stage": "preteen",
+      "age_range": [10, 12],
+      "items": [
+        {
+          "id": "preteen-1",
+          "prompt": "You and a friend discover a stray dog hiding behind your school. The school rules say no animals, and your parents warned you about stray animals. Your friend wants to sneak the dog home before the rain. You notice the dog limps. If you tell a teacher, the dog might be taken away to a shelter that is far. If you stay quiet, you could help the dog but break rules.",
+          "options": [
+            "Tell a teacher and hope the shelter treats the dog well.",
+            "Help your friend sneak the dog home and hide it from adults.",
+            "Stay with the dog until school ends, then call a local vet yourself."
+          ],
+          "difficulty": 0.45,
+          "conflict": "care vs rules, safety vs loyalty",
+          "tags": ["empathy", "responsibility", "loyalty"]
+        },
+        {
+          "id": "preteen-2",
+          "prompt": "Your group is building a class project. One classmate keeps making mistakes and everyone laughs quietly. You could correct them and slow the project, or ignore and finish quickly. The teacher grades the whole group together. You feel bad but also want a high score.",
+          "options": [
+            "Ask the classmate to redo parts, risking delay.",
+            "Quietly fix their part yourself without telling them.",
+            "Do nothing; let the mistake lower the grade for all."
+          ],
+          "difficulty": 0.42,
+          "conflict": "compassion vs performance",
+          "tags": ["empathy", "responsibility", "fairness"]
+        }
+      ]
+    },
+    {
+      "stage": "teen",
+      "age_range": [13, 17],
+      "items": [
+        {
+          "id": "teen-1",
+          "prompt": "Your close friend posts a private video of another student in an embarrassing moment. It spreads fast. The friend says deleting it now will make them look guilty and hurt their online status. Reporting might expose your friend's account. Staying silent feels like betrayal to the victim.",
+          "options": [
+            "Privately ask your friend to delete and apologize, risking the friendship.",
+            "Report the post anonymously to the platform and school.",
+            "Do nothing and hope it fades, to protect your friend."
+          ],
+          "difficulty": 0.62,
+          "conflict": "loyalty vs integrity vs empathy",
+          "tags": ["integrity", "courage", "empathy", "digital-ethics"]
+        },
+        {
+          "id": "teen-2",
+          "prompt": "You are offered a paid side gig during exam week. The money would help your family, but it will cut your study time. Your parents expect good grades for scholarships, and a cousin needs help paying medical bills. If you say no, you feel selfish; if you say yes, your grades may drop.",
+          "options": [
+            "Accept the gig and sacrifice study time.",
+            "Decline and focus on exams.",
+            "Negotiate a reduced gig and shorter hours."
+          ],
+          "difficulty": 0.58,
+          "conflict": "family duty vs personal future",
+          "tags": ["responsibility", "independence", "prudence"]
+        }
+      ]
+    },
+    {
+      "stage": "young_adult",
+      "age_range": [18, 25],
+      "items": [
+        {
+          "id": "ya-1",
+          "prompt": "At your first internship, you notice your mentor slightly alters data to make results look smoother. They say it is 'industry standard polishing.' Speaking up could endanger your position and future reference. Staying silent feels like betraying your own standards and the clients depending on the data.",
+          "options": [
+            "Confront the mentor directly and refuse to alter data.",
+            "Report to HR/ethics hotline with evidence.",
+            "Stay silent to protect your role, but keep your own copy of the raw data."
+          ],
+          "difficulty": 0.7,
+          "conflict": "career security vs integrity vs responsibility to clients",
+          "tags": ["integrity", "courage", "responsibility", "career"]
+        },
+        {
+          "id": "ya-2",
+          "prompt": "You promised your sibling to attend their important recital. The night before, a startup you co-founded faces a crisis; your presence could save a deal. Missing the recital breaks a promise and hurts trust. Missing the deal could sink the company and your team's jobs.",
+          "options": [
+            "Go to the recital and risk the deal.",
+            "Skip the recital and save the deal.",
+            "Attempt a split plan: join the recital briefly and then rush to the meeting."
+          ],
+          "difficulty": 0.68,
+          "conflict": "family loyalty vs entrepreneurial duty",
+          "tags": ["responsibility", "integrity", "independence"]
+        }
+      ]
+    },
+    {
+      "stage": "adult",
+      "age_range": [26, 60],
+      "items": [
+        {
+          "id": "adult-1",
+          "prompt": "You manage a team with a tight deadline. One member privately tells you they are burning out caring for an ill parent. Granting them leave risks missing the deadline and losing a major client. Refusing risks harming their health and trust. The company culture is competitive, and leadership tracks your delivery record closely.",
+          "options": [
+            "Grant leave and redistribute work, risking the deadline.",
+            "Refuse leave and keep the schedule, offering minor support.",
+            "Disclose to leadership and ask for temporary headcount relief."
+          ],
+          "difficulty": 0.72,
+          "conflict": "compassion vs delivery vs career stakes",
+          "tags": ["responsibility", "empathy", "integrity", "leadership"]
+        },
+        {
+          "id": "adult-2",
+          "prompt": "Your teenager admits they cheated on an important test. If reported, they could lose scholarships; if concealed, they may repeat the behavior. You recall your own past mistakes and fear repeating cycles. Your partner wants to report; your child begs for one more chance.",
+          "options": [
+            "Report the cheating to the school and accept consequences.",
+            "Handle it privately with strict accountability and restitution.",
+            "Delay action to gather more context from teachers before deciding."
+          ],
+          "difficulty": 0.7,
+          "conflict": "justice vs mercy vs modeling integrity",
+          "tags": ["integrity", "responsibility", "empathy", "parenting"]
+        }
+      ]
+    }
+  ]
+}

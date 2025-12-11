@@ -1,0 +1,36 @@
+# 可选增强功能依赖
+
+# 基础依赖
+-r requirements.txt
+
+# 增强 UI
+pygame-gui>=0.6.9       # 更现代的 UI 组件
+pygame-menu>=4.4.0      # 菜单系统
+
+# 数据处理
+numpy>=1.24.0           # 数值计算（如果需要复杂算法）
+pandas>=2.0.0           # 数据分析（如果需要统计功能）
+
+# 图表
+matplotlib>=3.7.0       # 数据可视化
+seaborn>=0.12.0         # 统计图表
+
+# 导出功能
+reportlab>=4.0.0        # PDF 导出
+pillow>=10.0.0          # 图像处理
+
+# 网络功能
+requests>=2.31.0        # HTTP 请求（如果需要在线功能）
+aiohttp>=3.8.0          # 异步 HTTP（如果需要多人游戏）
+
+# 数据库（如果需要持久化更多数据）
+sqlalchemy>=2.0.0       # ORM
+alembic>=1.11.0         # 数据库迁移
+
+# 日志
+loguru>=0.7.0           # 更好的日志系统
+
+# 配置增强
+python-decouple>=3.8    # 配置管理
+dynaconf>=3.2.0         # 动态配置
+
